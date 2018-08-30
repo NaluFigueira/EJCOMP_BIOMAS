@@ -1,0 +1,67 @@
+   @font-face {
+    font-family: lemonMilk;
+    src: url(../fonts/LemonMilklight.otf);
+	}
+
+
+  .secao{
+  	height: 270px;
+    background-position: 0px;
+    line-height: 135px;
+    background-repeat-y:no-repeat;
+  }
+
+  .img1{
+  	 background-image: url(http://blog.kanui.com.br/wp-content/uploads/2014/12/viagem4.jpg);
+  }
+
+  .img2{
+  	 background-image: url(https://static.noticiasaominuto.com.br/stockimages/1920/naom_5a684f0ba4575.jpg);
+  	 background-position-x:-500px; 
+  }
+
+  .img3{
+  	 background-image: url(https://abrilviagemeturismo.files.wordpress.com/2018/08/istock-477514393.jpg);
+  	 background-position-y:-1300px;
+  	 background-position-x:-2000px;  
+  }
+
+  .img4{
+  	 background-image: url(https://static.noticiasaominuto.com.br/stockimages/gallery/1920/naom_5a6850301cead.jpg);
+  }
+
+  .img5{
+  	 background-image: url(https://www.pensamentoverde.com.br/wp-content/uploads/2018/02/img1-3.jpg);
+  }
+
+  .img6{
+  	 background-image: url("http://1.bp.blogspot.com/_KTCeBnU15tc/S7n6cn0LsnI/AAAAAAAADQA/rN_8Te1YCho/s1600/Paulo+Afonso+(5).JPG");
+  }
+
+  .corpoSecao{
+  	background-color: white;
+  	color:black;
+  	font-family: open sans,sans-serif; 
+  	
+  }
+
+  .corpoSecaoTitulo{
+  	vertical-align: middle;
+    font-size: 50px;
+    font-family: lemonMilk;
+    color: white;
+  }
+
+  .direito{
+  	margin-left: 60%;
+  }
+
+  .esquerdo{
+    margin-left: 10%;
+  }
+
+  .entreContato{
+  	font-family: lemonMilk;
+  	color: black;
+  	font-size: 25px;
+  }
