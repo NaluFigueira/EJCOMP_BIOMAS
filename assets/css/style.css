@@ -12,6 +12,8 @@
     margin-bottom: 10px;
   }
 
+
+
 /*--------------------------------CLASSES-----------------------------------------*/
   .secao{
   	height: 270px;
@@ -56,13 +58,13 @@
 
   .corpoSecaoTitulo{
   	vertical-align: middle;
-    font-size: 50px;
+    font-size: 3vw;
     font-family: lemonMilk;
     color: white;
   }
 
   .direito{
-  	margin-left: 60%;
+  	margin-left: 65%;
   }
 
   .esquerdo{
