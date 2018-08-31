@@ -1,9 +1,18 @@
+/*=============================FOLHA DE ESTILO BIOMA==============================*/
+
+/*-----------------------------ATRIBUTOS PADRÃO-----------------------------------*/
    @font-face {
     font-family: lemonMilk;
     src: url(../fonts/LemonMilklight.otf);
 	}
 
+  h3{
+    color: #30A323;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
+/*--------------------------------CLASSES-----------------------------------------*/
   .secao{
   	height: 270px;
     background-position: 0px;
@@ -65,3 +74,29 @@
   	color: black;
   	font-size: 25px;
   }
+
+  .bNavBar{
+    background-color: rgba(0,0,0,0.35);
+    position: relative;
+    top: 0;
+  }
+
+  .bNavLinks{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+
+  .bNavLinks:hover{
+    border-bottom: 3px solid white;
+    color: #BBFFBC;       
+  }
+
+  .bNavCentral{
+    margin-left: 350px;
+  }
+
+  .ptBranca{
+    height: 325px;
+  }
+  /*-----------------------------------ID's-------------------------------------*/
