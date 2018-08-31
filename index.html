@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"> 
+	<title>Biomas - Inicio</title>
+
+	<!-------- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./assets/js/materialize.min.js"></script>
+	<!-- nosso JavaScript -->
+	<script type="text/javascript" src="./assets/js/funcoes.js"></script>
+
+	<!--------------- CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<!-- nosso CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/footer.css">	
+</head>
+
+<body>
+
+	<!-- Header -->
+	<div class="navbar-fixed">	 
+	  	<nav class="bNavBar">
+		    <div class="nav-wrapper">
+
+		      <!-- Logo apagado <a href="#" class="brand-logo">Logo</a>-->
+		      
+		      <ul id="nav-mobile" class="left hide-on-med-and-down bNavCentral">
+		        <li><a class="bNavLinks" href="#">INÍCIO</a></li>
+		        <li><a class="bNavLinks" href="#">SOBRE</a></li>
+		        <li><a class="bNavLinks" href="#">SERVIÇOS</a></li>
+		        <li><a class="bNavLinks" href="#">NOSSA EQUIPE</a></li>
+		        <li><a class="bNavLinks" href="#">MEJ</a></li>
+		        <li><a class="bNavLinks" href="#">CONTATO</a></li>
+		      </ul>
+		      
+		    </div>
+	  	</nav>
+  	</div>        
+	 <!-- /header-->
+
+	<div class="parallax-container">
+      <div class="parallax"><img src="./assets/img/florestaBckg.jpg"></div>
+	</div>
+
+	<div class="section white ptBranca">
+	  <div class="row container">
+	      <h3 class="header">NOSSA HISTÓRIA</h3>
+	      <p class="grey-text text-darken-3 lighten-3 ">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+	  </div>
+	</div>
+
+	<div class="parallax-container">
+      <div class="parallax"><img src="./assets/img/araraCapa1.jpg"></div>
+    </div>
+
+	 <!-- Footer -->
+	 <footer class="page-footer" style="background-color: rgba(211,211,211, 0.95);">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="black-text arial">CONTATO</h5>
+                <p class="arial black-text text-lighten-4">Av. Brasil Norte, 364, Sala 7<br>
+				Ilha Solteira, SP 15385-000<br>
+				contato.biomas@gmail.com</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 id="redessociais" class="black-text arial">BIOMAS NAS REDES SOCIAIS</h5>
+                <ul id="redessociais">
+                  <a href="#"> <li class="social"><img src="https://image.flaticon.com/icons/svg/124/124010.svg" class="social-icon facebook" alt=""></li> </a>
+                  <a href="#"> <li class="social"><img src="https://image.flaticon.com/icons/svg/174/174855.svg" class="social-icon" alt=""></li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <a class="container center black-text arial" href="https://ejcomp.com.br" target="_blank">
+            © Desenvolvido por EJComp - Empresa Júnior da Computação</a>
+            </div>
+          </div>
+     </footer>
+     <!-- /footer-->
+
+</body>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+  $(function(){
+    $(".button-collapse").sideNav();
+ });
+</script>
+
+</html>
