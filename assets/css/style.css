@@ -11,6 +11,16 @@
     font-weight: bold;
     margin-bottom: 10px;
   }
+
+  h2{
+    color: white;
+    font-weight: bold;
+    margin-right: 150px;
+  }
+
+  h5{
+    font-weight: bold;
+  }
 /*-----------------------------SCROLLER BUNITO------------------------------------*/
 ::-webkit-scrollbar {
 	width: 3px;
@@ -105,7 +115,7 @@
   .bNavLinks{
     font-size: 16px;
     font-weight: bold;
-    margin-right: 15px;
+    margin-right: 30px;
   }
 
   .bNavLinks:hover{
@@ -114,10 +124,80 @@
   }
 
   .bNavCentral{
-    margin-left: 350px;
+    margin-left: 420px;
   }
 
   .ptBranca{
-    height: 325px;
+    height: 400px;
+  }
+
+  .prlxTamFloresta{
+    height: 600px;
+  }
+
+  .prlxTamArara{
+    height: 845px;
+  }
+
+  .divLogo{
+    margin-top: 50px;
+  }
+
+  .spanOrcamento{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .spanOrcamento:hover{
+    color: #BBFFBC;
+  }
+
+  .btnOrcamento{
+    border: 3.5px solid white;
+    background-color: transparent; 
+    height: 50px;
+    width: 350px;
+    font-weight: bolder;
+    color: white;
+    transition: 0.5s;
+  }
+
+  .btnOrcamento:hover{    
+    background-color: white;
+    transition: 0.5s;
+    color: #30A323;
+  }
+
+  .filaIcon{
+    margin-right: 50px;
+    margin-top: 100px;
+  }
+
+  .divIcon{
+    display: inline-block;
+    margin-right: 0px;
+  }
+
+  .iconEsquerda{
+    margin-right: 200px;
+  }
+
+  .iconDireita{
+    margin-left: 200px;
+  }
+
+  .txtServicos{
+    color: black;  
+    font-size: 20px;
+    font-weight: bold 
+  }
+
+  .txtEsquerda{
+    margin-right: 100px;
+  }
+
+  .txtDireita{
+    margin-left: 150px;
   }
   /*-----------------------------------ID's-------------------------------------*/
