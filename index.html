@@ -24,38 +24,130 @@
 	<!-- Header -->
 	<div class="navbar-fixed">	 
 	  	<nav class="bNavBar">
-		    <div class="nav-wrapper">
+		    <div class="nav-wrapper"> 
 
-		      <!-- Logo apagado <a href="#" class="brand-logo">Logo</a>-->
-		      
-		      <ul id="nav-mobile" class="left hide-on-med-and-down bNavCentral">
+		      <a href="#" data-activates="mobile-demo" class="hide-on-large-only button-collapse"><i class="material-icons">menu</i></a>
+
+		      <ul id="mobile-demo" class="left hide-on-med-and-down bNavCentral">
 		        <li><a class="bNavLinks" href="#">INÍCIO</a></li>
 		        <li><a class="bNavLinks" href="#">SOBRE</a></li>
-		        <li><a class="bNavLinks" href="#">SERVIÇOS</a></li>
-		        <li><a class="bNavLinks" href="#">NOSSA EQUIPE</a></li>
-		        <li><a class="bNavLinks" href="#">MEJ</a></li>
+		        <li><a class="bNavLinks" href="#">SERVIÇOS</a></li>		        
 		        <li><a class="bNavLinks" href="#">CONTATO</a></li>
 		      </ul>
+
+		      
 		      
 		    </div>
 	  	</nav>
-  	</div>        
+  	</div>       
 	 <!-- /header-->
 
-	<div class="parallax-container">
-      <div class="parallax"><img src="./assets/img/florestaBckg.jpg"></div>
-	</div>
 
+	<!-- Parallax -->
+	<!-- Parallax Container 1 --> 
+	<div class="parallax-container prlxTamFloresta">
+      <div class="parallax">
+      	<img src="./assets/img/florestaCapa.jpg">      	 
+      </div>  
+
+      <!-- Logo -->
+      <div class="center-align divLogo">
+      	 	<img src="./assets/img/logo 2.PNG" class="center-align">      	 	
+      </div>
+      <!-- /logo-->
+
+      <!-- Botao -->
+      <div class="center-align">
+	      <button class="btnOrcamento">
+	      	FAÇA UM ORÇAMENTO
+	      </button>
+  	  </div>
+  	  <!-- /botao-->
+	</div>
+	<!-- /parallax container 1-->
+
+	<!-- Parte Branca -->
 	<div class="section white ptBranca">
 	  <div class="row container">
-	      <h3 class="header">NOSSA HISTÓRIA</h3>
-	      <p class="grey-text text-darken-3 lighten-3 ">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+	      <h3 class="header">NOSSOS PROJETOS</h3>
+	      <p class="grey-text text-darken-3 lighten-3 ">Slider here.</p>
 	  </div>
 	</div>
+	<!-- /parte branca-->
 
-	<div class="parallax-container">
-      <div class="parallax"><img src="./assets/img/araraCapa1.jpg"></div>
-    </div>
+	<!-- Parallax Container 2 -->
+	<div class="parallax-container prlxTamArara">
+      <div class="parallax">
+      	<img src="./assets/img/araraCapa1.png">
+      </div>
+
+      <div class="right-align">
+    	<h2>NOSSOS SERVIÇOS</h2>
+      </div>
+
+      <!-- Icons Fila 1-->
+      <!-- Icons -->
+      <div class="right-align filaIcon">
+      	<div class="divIcon center-align">
+      		<span class="iconEsquerda"><img src="./assets/img/icons/consutoria.png"></span>      		
+      	</div>
+      	<div class="divIcon center-align">
+      		<img src="./assets/img/icons/cursos.png">
+      	</div>
+      	<div class="divIcon center-align">
+      		<span class="iconDireita"><img src="./assets/img/icons/ecoturismo.png"></span>
+      	</div>      	
+      </div>
+      <!-- /icons-->
+
+      <!-- Textos -->
+      <div class="right-align filaIcon">
+      	<div class="divIcon center-align">      		
+      		<span class="txtServicos txtEsquerda">Consultoria Ambiental</span>
+      	</div>
+      	<div class="divIcon center-align">
+      		<span class="txtServicos">Cursos Ambientais</span>
+      	</div>
+      	<div class="divIcon center-align">
+      		<span class="txtServicos txtDireita">Ecoturismo</span>
+      	</div>      	
+      </div>
+      <!-- /textos-->
+
+      <!-- Icons Fila 2-->
+      <!-- Icons -->
+      <div class="right-align filaIcon">
+      	<div class="divIcon center-align">
+      		<span class="iconEsquerda"><img src="./assets/img/icons/gestao.png"></span>
+      	</div>
+      	<div class="divIcon center-align">
+      		<img src="./assets/img/icons/planejamento.png">
+      	</div>
+      	<div class="divIcon center-align">
+      		<span class="iconDireita"><img src="./assets/img/icons/prad.png"></span>
+      	</div>      	
+      </div>
+      <!-- /icons-->
+
+      <!-- Textos -->
+      <div class="right-align filaIcon">
+      	<div class="divIcon center-align">      		
+      		<span class="txtServicos txtEsquerda">Gestão de Recursos</span>
+      	</div>
+      	<div class="divIcon center-align">
+      		<span class="txtServicos">Planejamento Ambiental</span>
+      	</div>
+      	<div class="divIcon center-align">
+      		<span class="txtServicos txtDireita">PRAD</span>
+      	</div>      	
+      </div>
+      <!-- /textos-->
+
+      </div>
+    </div>    
+    <!-- /parallax container 2-->
+    <!-- /parallax-->
+
 
 	 <!-- Footer -->
 	 <footer class="page-footer" style="background-color: rgba(211,211,211, 0.95);">
@@ -84,16 +176,19 @@
      </footer>
      <!-- /footer-->
 
-</body>
 
-<script type="text/javascript">
+<script>  
+ $(function(){
+     $(".button-collapse").sideNav();
+ });
+
   $(document).ready(function(){
     $('.parallax').parallax();
-  });
-
-  $(function(){
-    $(".button-collapse").sideNav();
- });
+});
 </script>
+
+</body>
+
+
 
 </html>
