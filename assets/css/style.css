@@ -97,6 +97,39 @@
   	 background-image: url("http://1.bp.blogspot.com/_KTCeBnU15tc/S7n6cn0LsnI/AAAAAAAADQA/rN_8Te1YCho/s1600/Paulo+Afonso+(5).JPG");
   }
 
+  .imgLogo{  /*----------Animação Logo ----------*/
+    -webkit-animation: fadein 3s;
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+  }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  } /*---------- Animação do Logo ----------*/
+
   .corpoSecao{
   	background-color: white;
   	color:black;
@@ -192,6 +225,14 @@
     transition: 0.5s;
     color: #30A323;
   }
+
+  .btnOrcamento{ /*---------- Animação Button ----------*/
+    -webkit-animation: fadein 3s;
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+  } /*---------- Animação Button ----------*/
 
   .row{
     margin-top: 30px;
