@@ -8,27 +8,12 @@
     }
 }
 
-  @media only screen and (max-width: 600px){
-    #redessociais{white-space: normal !important;}
-}
-
 
 /*-----------------------------ATRIBUTOS PADRÃO-----------------------------------*/
    @font-face {
     font-family: lemonMilk;
     src: url(../fonts/LemonMilklight.otf);
 	}
-
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    /*background-image: url("https://wallpaper-house.com/data/out/12/wallpaper2you_497977.jpg");*/
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
 
   h3{
     color: #30A323;
@@ -91,7 +76,7 @@
 
   .img2{
   	 background-image: url(https://static.noticiasaominuto.com.br/stockimages/1920/naom_5a684f0ba4575.jpg);
-  	 background-position-x:-500px; 
+  	 background-position-x:-320px; 
   }
 
   .img3{
@@ -146,11 +131,13 @@
   } /*---------- Animação do Logo ----------*/
 
   .corpoSecao{
-  	background-color: white;
-  	color:black;
-  	font-family: open sans,sans-serif; 
-  	
+  	background:linear-gradient(141deg, #DCEDC8 25%, #F1F8E9 40%, #DCEDC8 55%);
+    color:black;
+  	font-family: 'Montserrat',sans-serif; 
+    font-weight: lighter;
+   
   }
+
 
   .corpoSecaoTitulo{
   	vertical-align: middle;
@@ -179,9 +166,10 @@
   }
 
   .entreContato{
-  	font-family: lemonMilk;
+  	font-family: 'Montserrat', sans-serif;
   	color: black;
   	font-size: 25px;
+    display: inline-block;
   }
 
   .bNavBar{
@@ -202,7 +190,7 @@
   }
 
   .bNavCentral{
-    margin-left: 450px;
+    margin-left: 35%;
   }
 
   .ptBranca{
@@ -251,10 +239,6 @@
     color: #30A323;
   }
 
-  .fontPretaNoHref{
-  color: black;
-  }
-
   .btnOrcamento{ /*---------- Animação Button ----------*/
     -webkit-animation: fadein 3s;
        -moz-animation: fadein 3s; 
@@ -284,37 +268,25 @@
     transform: scale(1.2);
   }
 
-/*---------------Footer---------------*/
-.page-footer{
-  background-color: rgb(211,211,211);
-}
+  .fontePretaNoHref{
+    color:black;
+  }
+  .efeitoZoom{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer; 
+    
+  }
+  .efeitoZoom:hover{
+    transform: scale(1.2);
 
-.social{
-  display: inline;
-  text-align: left;
-  margin: 0 10px;
-}
+  }
 
-.social-icon{
-  width: 50px;
-  height: 50px;
-  filter: brightness(0%);
-  transition: ease all .5s;
-}
-
-.facebook{
-  border-radius: 5px;
-}
-
-.social-icon:hover{
-  filter: brightness(100%);
-  transform: scale(1.1);
-}
-
-#redessociais{
-  white-space: nowrap;
-}
-
+  .verMais{
+    display:inline-block;
+  }
 /*-----------------------------------ID's-------------------------------------*/
 
 
