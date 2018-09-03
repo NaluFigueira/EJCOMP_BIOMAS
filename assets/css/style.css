@@ -143,6 +143,16 @@
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     color: white;
+   	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  .corpoSecaoTitulo:hover{
+  	transform: scale(1.2);
+  	color:#BBFFBC;
+
   }
 
   .direito{
@@ -244,6 +254,16 @@
     margin-bottom: 25px;
   }
 
+  .efeitoZoomDiv{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  .efeitoZoomDiv:hover{
+    transform: scale(1.2);
+  }
 /*-----------------------------------ID's-------------------------------------*/
 
 
