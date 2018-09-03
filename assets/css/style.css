@@ -107,12 +107,13 @@
   .corpoSecaoTitulo{
   	vertical-align: middle;
     font-size: 3vw;
-    font-family: lemonMilk;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     color: white;
   }
 
   .direito{
-  	margin-left: 65%;
+  	margin-left: 60%;
   }
 
   .esquerdo{
