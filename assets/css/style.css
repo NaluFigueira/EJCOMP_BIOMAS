@@ -291,38 +291,50 @@
   .verMais{
     display:inline-block;
   }
-/*-----------------------------------ID's-------------------------------------*/
 
+  .collapsible{
+    margin-bottom: 0px; 
+    margin-top:0px;
+  }
+
+  .especialmargin{
+    margin-left: 75%;
+  }  
+
+/*---------------Header---------------*/
+  .navbar-fixed{
+    position: absolute;
+  }
 
 /*---------------Footer---------------*/
-.page-footer{
-  background-color: rgb(211,211,211);
-}
+  .page-footer{
+    background-color: rgb(211,211,211);
+  }
 
-.social{
-  display: inline;
-  text-align: left;
-  margin: 0 10px;
-}
+  .social{
+    display: inline;
+    text-align: left;
+    margin: 0 10px;
+  }
 
-.social-icon{
-  width: 50px;
-  height: 50px;
-  filter: brightness(0%);
-  transition: ease all .5s;
-}
+  .social-icon{
+    width: 50px;
+    height: 50px;
+    filter: brightness(0%);
+    transition: ease all .5s;
+  }
 
-.facebook{
-  border-radius: 5px;
-}
+  .facebook{
+    border-radius: 5px;
+  }
 
-.social-icon:hover{
-  filter: brightness(100%);
-  transform: scale(1.1);
-}
+  .social-icon:hover{
+    filter: brightness(100%);
+    transform: scale(1.1);
+  }
 
-#redessociais{
-  white-space: nowrap;
-}
+  #redessociais{
+    white-space: nowrap;
+  }
 
 /*-----------------------------------ID's-------------------------------------*/
