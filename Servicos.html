@@ -49,7 +49,7 @@
 		<!-- li 1 -->
      	<li>
       		<div class="collapsible-header secao img1" id="consultoria"><p class="corpoSecaoTitulo esquerdo">CONSULTORIA</p></div>
-      		<div class="collapsible-body corpoSecao" >
+      		<div class="collapsible-body corpoSecao" id="consultoriaB" >
       		<div class="container">
       			<span>
 		      		<p>A consultoria ambiental abrange empresas e escolas, sendo um serviço muito utilizado atualmente pois cada vez mais tem se observado acidentes provenientes da má gestão ambiental.</p>
@@ -76,7 +76,7 @@
 	    <!-- li 2 -->
 	    <li>
 	      <div class="collapsible-header secao img2" id="cursos"><p class="corpoSecaoTitulo direito">CURSOS AMBIENTAIS</p></div>
-	      <div class="collapsible-body corpoSecao" >
+	      <div class="collapsible-body corpoSecao"  >
 	      	<div class="container">
 		      	<span>
 		      			<p>
@@ -223,6 +223,52 @@
           </div>
      </footer>
      <!-- /footer-->
+     <script type="text/javascript">
+
+     		window.onload = function() {
+  				abrirCollapsible();
+			};
+
+  			function getParameterByName() {
+			    url = window.location.href;
+			    name = 'abrir';
+			    name = name.replace(/[\[\]]/g, '\\$&');
+			    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+			        results = regex.exec(url);
+			    if (!results) return null;
+			    if (!results[2]) return '';
+			    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+			}
+
+			function abrirCollapsible(){
+				if(getParameterByName() == "trueConsultoria"){
+					window.location.hash = '#consultoria'; 
+					$('#consultoria').click();
+				}
+				if(getParameterByName() == "trueCursos"){
+					window.location.hash = '#cursos';
+				 	$('#cursos').click();
+				}
+				if(getParameterByName() == "trueEcoturismo"){
+					window.location.hash = '#ecoturismo';
+				 	$('#ecoturismo').click();
+				}
+				if(getParameterByName() == "trueGestao"){
+					window.location.hash = '#gestao';
+				 	$('#gestao').click();
+				}
+
+				if(getParameterByName() == "truePlanejamento"){
+					window.location.hash = '#planejamento';
+				 	$('#planejamento').click();
+				}
+				if(getParameterByName() == "truePRAD"){
+					window.location.hash = '#prad';
+				 	$('#prad').click();
+				}
+			}
+		
+     </script>
 
 </body>
 </html>

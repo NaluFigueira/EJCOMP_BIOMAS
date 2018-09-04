@@ -26,8 +26,6 @@
 		<nav class="bNavBar">
 			<div class="nav-wrapper"> 
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-
-
 				<ul class="left hide-on-med-and-down bNavCentral">
 					<li><a class="bNavLinks" href="index.html">INÍCIO</a></li>
 					<li><a class="bNavLinks" href="#">SOBRE</a></li>
@@ -133,7 +131,7 @@
 					<div >
 						<a ><img  src="./assets/img/icon_consutoria.png"></a>
 						<a class="fontePretaNoHref"><h6>Consultoria Ambiental</h6></a>
-						<a  href="Servicos.html#consultoria" class="fontePretaNoHref efeitoZoom verMais"><h6>Ver mais</h6></a>
+						<a class="fontePretaNoHref efeitoZoom verMais" onclick="servicosPreview('trueConsultoria')"><h6>Ver mais</h6></a>
 					</div>  
 				</div>
 
@@ -142,7 +140,7 @@
 					<div >
 						<a ><img src="./assets/img/icon_cursos.png"></a>
 						<a class="fontePretaNoHref"><h6 >Cursos Ambientais</h6>  </a>
-						<a  href="Servicos.html#cursos" class="fontePretaNoHref efeitoZoom verMais"><h6>Ver mais</h6></a>
+						<a class="fontePretaNoHref efeitoZoom verMais" onclick="servicosPreview('trueCursos')"><h6>Ver mais</h6></a>
 					</div>
 				</div>
 
@@ -151,8 +149,7 @@
 					<div> 
 						<a ><img src="./assets/img/icon_ecoturismo.png"></a>
 						<a class="fontePretaNoHref" ><h6 >Ecoturismo</h6></a>
-						<a  href="Servicos.html#ecoturismo" class="fontePretaNoHref efeitoZoom verMais"><h6>Ver mais</h6></a>
-
+						<a class="fontePretaNoHref efeitoZoom verMais" onclick="servicosPreview('trueEcoturismo')"><h6>Ver mais</h6></a>
 					</div>  
 				</div>
 			</div>
@@ -165,7 +162,7 @@
 					<div>
 						<a ><img src="./assets/img/icon_gestao.png"></a>
 						<a class="fontePretaNoHref" ><h6 >Gestão Ambiental</h6></a>
-						<a href = "Servicos.html#gestao" class="efeitoZoom verMais fontePretaNoHref"><h6>Ver mais</h6></a>
+						<a class="fontePretaNoHref efeitoZoom verMais" onclick="servicosPreview('trueGestao')"><h6>Ver mais</h6></a>
 
 					</div>    
 				</div>
@@ -175,7 +172,7 @@
 					<div >
 						<a ><img src="./assets/img/icon_planejamento.png"></a>
 						<a class="fontePretaNoHref" ><h6 >Planejamento Ambiental</h6></a>
-						<a href = "Servicos.html#planejamento" class="efeitoZoom verMais fontePretaNoHref"><h6>Ver mais</h6></a>
+						<a class="fontePretaNoHref efeitoZoom verMais" onclick="servicosPreview('truePlanejamento')"><h6>Ver mais</h6></a>
 					</div>  
 				</div>
 
@@ -184,7 +181,7 @@
 					<div>
 						<a ><img src="./assets/img/icon_prad.png"></a>	
 						<a class="fontePretaNoHref" ><h6 >Planejamento de Recuperação de Areas Devastadas</h6></a>
-						<a href = "Servicos.html#prad" class="efeitoZoom verMais fontePretaNoHref"><h6>Ver mais</h6></a>
+						<a class="fontePretaNoHref efeitoZoom verMais" onclick="servicosPreview('truePRAD')"><h6>Ver mais</h6></a>
 					</div>
 				</div>
 			</div>
@@ -225,6 +222,12 @@
 </div>
 </footer>
 <!-- /footer-->
+
+<script type="text/javascript">
+	function servicosPreview(abrir) { 
+		window.location.href = 'Servicos.html?abrir='+abrir;
+	} 
+</script>
 
 </body>
 </html>
