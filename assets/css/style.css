@@ -260,6 +260,7 @@
     background-color: white;
     transition: 0.5s;
     color: #30A323;
+    cursor: pointer;
   }
 
   .btnOrcamento{ /*---------- Animação Button ----------*/
