@@ -1,12 +1,19 @@
 /*=============================FOLHA DE ESTILO BIOMA==============================*/
 
 /*--------------------------------MEDIA QUERY-------------------------------------*/
-  @media screen and (max-width: 600px) {    
+  @media (max-width: 600px) {    
     button{
       height: 50px;
-        width: 150px;
+      width: 150px;
     }
-}
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .btnOrcamento{
+      height: 50px;
+      width: 150px;
+    }
+  }
 
 
 /*-----------------------------ATRIBUTOS PADRÃO-----------------------------------*/
@@ -290,7 +297,7 @@
   } /*---------- Animação Button ----------*/
 
   .row{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 100px;
   }
 
@@ -361,6 +368,10 @@
     visibility: hidden;
     overflow: hidden;
   }
+
+  
+
+
 /*---------------Header---------------*/
   .navbar-fixed{
     position: absolute;
@@ -393,8 +404,9 @@
     transform: scale(1.1);
   }
 
-  #redessociais{
-    white-space: nowrap;
-  }
+  
 
 /*-----------------------------------ID's-------------------------------------*/
+#redessociais{
+    white-space: nowrap;
+  }
