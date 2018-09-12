@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"> 
+	<title>Biomas - Contato</title>
+
+	<!-------- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./assets/js/materialize.min.js"></script>
+	<!-- nosso JavaScript -->
+	<script type="text/javascript" src="./assets/js/funcoes.js"></script>
+
+	<!--------------- CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<!---------------Font-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<!-- nosso CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+
+
+<body ;>
+
+	<!-- Header -->
+	<div class="navbar-fixed">	 
+	  	<nav class="bNavBar">
+		    <div class="nav-wrapper"> 
+		    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		      <ul class="left hide-on-med-and-down bNavCentral">
+		        <li><a class="bNavLinks" href="index.html">INÍCIO</a></li>
+		        <li><a class="bNavLinks" href="sobre.html">SOBRE</a></li>
+		        <li><a class="bNavLinks" href="Servicos.html" id="Servicos">SERVIÇOS</a></li>
+		        <li><a class="bNavLinks" href="contato.html">CONTATO</a></li>
+		      </ul>
+		    </div>
+	  	</nav>
+  	</div>  
+  	<ul class="sidenav" id="mobile-demo">
+		<li><a class="bNavLinks" href="index.html">INÍCIO</a></li>
+		<li><a class="bNavLinks" href="#">SOBRE</a></li>
+		<li><a class="bNavLinks" href="#">SERVIÇOS</a>
+			<ul class="sub-menu clearfix" id="subservicos">
+		        		<li><a  href="">Consultoria</a></li>
+		        		<li><a href="">Cursos Ambientais</a></li>
+		        		<li><a href="">Ecoturismo</a></li>
+		        		<li><a href="">Gestão de Resíduos</a></li>
+		        		<li><a href="">Planejamento Ambiental</a></li>
+		        		<li><a href="">Prad</a></li>
+		        	</ul>
+		</li>
+		<li><a class="bNavLinks" href="#">CONTATO</a></li>
+	</ul>      
+	 <!-- /header-->
+	 <!-- Formulario -->
+	  <div class = "row backgroundForm">
+			<div class="col s12 m6 offset-m3 formulario">
+				<div class="card">
+					<div class="card-action  light-green darken-4 white-text">
+						<p class="titulo">ENTRE EM CONTATO<p>
+					</div>
+					<div class="card-content">
+						<div class="form-field camposFormulario">
+							<label class="tamanhoLetraForm">NOME COMPLETO</label>
+							<input type="text">
+						</div><br>
+						<div class="form-field camposFormulario">
+							<label class="tamanhoLetraForm">EMAIL</label>
+							<input type="email">
+						</div><br>
+						<div class="form-field camposFormulario">
+							<label class="tamanhoLetraForm">TELEFONE</label>
+							<input type="text">
+						</div><br>
+						<div class="form-field camposFormulario">
+							<label class="tamanhoLetraForm">ASSUNTO</label>
+							<input type="text">
+						</div><br>
+						<div class="form-field camposFormulario">
+							<label class="tamanhoLetraForm">MENSAGEM</label>
+							<textarea class="materialize-textarea"></textarea>
+						</div><br>
+						<div class="form-field">
+							<button class="btn-large waves green darken-4 effect waves-dark" style="width: 100%;">Enviar</button>
+						</div><br>
+					</div>
+				</div>
+			</div>
+	   </div>
+	   <!-- Formulario -->
+	  <!--  Informações -->
+	 <h3 class="header center-align" style="margin-top: 5%">INFORMAÇÕES PARA CONTATO</h3>
+    <div class="row divInformacoes" >
+      <!-- <div class="col s4 informacoes">
+        <i class="large material-icons icon-green">local_phone</i>
+        <p class="tituloInformacoes">TELEFONE</p>
+      </div> -->
+      <div class="col s6 informacoes">
+        <i class="large material-icons icon-green">email</i>
+        <p class="tituloInformacoes">EMAIL</p>
+        <p class="textoInformacoes">contato.biomas@gmail.com</p>
+      </div>
+      <div class="col s6 informacoes">
+        <i class="large material-icons icon-green">location_on</i>
+        <p class="tituloInformacoes">ENDEREÇO</p>
+        <p class="textoInformacoes">Av. Brasil Norte, 364, Sala 7</p>
+        <p class="textoInformacoes">Ilha Solteira, SP 15385-000</p>
+      </div>
+    </div>
+	 <!--  Informações -->
+	 <!-- Mapa -->
+	 <h3 class="header center-align" style="margin-top: 5%; margin-bottom:5%">LOCALIZAÇÃO</h3>
+	 <div id="map" class="mapa"></div>
+	 <!-- Mapa -->
+	 <!-- Footer -->
+	 <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="black-text arial">CONTATO</h5>
+                <p class="arial black-text text-lighten-4">Av. Brasil Norte, 364, Sala 7<br>
+				Ilha Solteira, SP 15385-000<br>
+				contato.biomas@gmail.com</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 id="redessociais" class="black-text arial">BIOMAS NAS REDES SOCIAIS</h5>
+                <ul id="redessociais">
+                  <a href="#"> <li class="social"><img src="https://image.flaticon.com/icons/svg/124/124010.svg" class="social-icon facebook" alt=""></li> </a>
+                  <a href="#"> <li class="social"><img src="https://image.flaticon.com/icons/svg/174/174855.svg" class="social-icon" alt=""></li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <a class="container center black-text arial" href="https://ejcomp.com.br" target="_blank">
+            © Desenvolvido por EJComp - Empresa Júnior da Computação</a>
+            </div>
+          </div>
+     </footer>
+     <!-- /footer-->
+</body>
+</html>
+
+<script>
+function myMap() {
+var myLatlng = new google.maps.LatLng(-20.4251458,-51.3435016);
+var mapOptions = {
+  zoom: 15,
+  center: myLatlng
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"Hello World!"
+});
+
+// To add the marker to the map, call setMap();
+marker.setMap(map);}
+</script>
+
+<script src="http://maps.google.com/maps/api/js?sensor=false&callback=myMap"></script>
