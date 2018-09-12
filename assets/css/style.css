@@ -455,3 +455,69 @@
 #redessociais{
     white-space: nowrap;
   }
+
+/*--------------------------------Formulário---------------------------------*/
+
+.titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.formulario{
+      margin-top: 10%;
+      margin-bottom: 10%;
+}
+
+
+.camposFormulario{
+    font-family: 'Montserrat',sans-serif; 
+    font-weight: lighter;
+}
+
+.backgroundForm{
+  background-image: url(../img/contato2.jpg); 
+  background-size: 150%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-position-x: -400px; 
+}
+
+
+
+.tamanhoLetraForm{
+  font-size: 110%;
+}
+
+.divInformacoes{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.tituloInformacoes{
+  font-weight: bold;
+  font-size: 170%;
+}
+
+.textoInformacoes{
+  font-size:150%;
+}
+
+.informacoes{
+  text-align: center;
+  font-family: 'Montserrat',sans-serif; 
+  font-weight: lighter;
+}
+
+i.icon-green{
+    color: #30a323;
+
+}
+
+.mapa{
+  width: 100%;
+  height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4%;
+}
