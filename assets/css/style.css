@@ -43,6 +43,7 @@
   h5{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    color: green;
   }
 
   h6{
@@ -444,8 +445,17 @@
   }
 
 /*---------------Footer---------------*/
+  .ejcomp:hover{
+    color: green;
+    transition: 0.3s;
+  }
+
+  .ejcomp{
+    transition: 0.3s;
+  }
+
   .page-footer{
-    background-color: rgb(211,211,211);
+    background-color: rgba(211,211,211,0.3);
   }
 
   .social{
@@ -455,19 +465,19 @@
   }
 
   .social-icon{
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     filter: brightness(0%);
     transition: ease all .5s;
   }
 
   .facebook{
-    border-radius: 5px;
+    border-radius: 3px;
   }
 
   .social-icon:hover{
     filter: brightness(100%);
-    transform: scale(1.1);
+    transform: scale(1.5);
   }
 
   
