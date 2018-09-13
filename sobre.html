@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8"> 
-	<title>Biomas</title>
+	<title>Biomas - Contato</title>
 
 	<!-------- JavaScript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -12,17 +12,96 @@
 
 	<!--------------- CSS -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/materialize.min.css">
-	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+	<!---------------Font-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 	<!-- nosso CSS -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">	
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 
 
-<body>
-	
+<body ;>
 
+	<!-- Header -->
+	<div class="navbar-fixed">	 
+		<nav class="bNavBar">
+			<div class="nav-wrapper"> 
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="left hide-on-med-and-down bNavCentral">
+					<li><a class="bNavLinks" href="index.html">INÍCIO</a></li>
+					<li><a class="bNavLinks" href="sobre.html">SOBRE</a></li>
+					<li><a class="bNavLinks" href="Servicos.html" id="Servicos">SERVIÇOS</a></li>
+					<li><a class="bNavLinks" href="contato.html">CONTATO</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>  
+	<ul class="sidenav" id="mobile-demo">
+		<li><a class="bNavLinks" href="index.html">INÍCIO</a></li>
+		<li><a class="bNavLinks" href="#">SOBRE</a></li>
+		<li><a class="bNavLinks" href="#">SERVIÇOS</a>
+			<ul class="sub-menu clearfix" id="subservicos">
+				<li><a  href="">Consultoria</a></li>
+				<li><a href="">Cursos Ambientais</a></li>
+				<li><a href="">Ecoturismo</a></li>
+				<li><a href="">Gestão de Resíduos</a></li>
+				<li><a href="">Planejamento Ambiental</a></li>
+				<li><a href="">Prad</a></li>
+			</ul>
+		</li>
+		<li><a class="bNavLinks" href="#">CONTATO</a></li>
+	</ul>      
+	<!-- /header-->
+	<!-- Formulario -->
+	<div class = "row backgroundSobre">
+		<div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 formulario">
+			<div class="card">
+				<div class="card-panel light-blue darken-4">
+					<h2 style="vertical-align: middle; font-size: 3vw; font-weight: bold; font-family: 'Montserrat', sans-serif; color: white;">NOSSA HISTÓRIA</h2>
+				</div>
+				<div class="container">
+					<div>
+						<h6>A empresa júnior BIOMAS (Biologia Integrando o Meio Ambiente com Sustentabilidade) oferece serviços de consultoria e educação ambiental. Foi fundada no ano de 2014 por quatro estudantes do curso de Ciências Biológicas da UNESP de Ilha Solteira.
+						</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Formulario -->
+	<!--  Informações -->
+	<h3 class="header center-align" style="margin-top: 5%">MVV</h3>
+
+</div>
+</div>
+<!--  Informações -->
+<!-- Footer -->
+<footer class="page-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12">
+				<h5 class="black-text arial">CONTATO</h5>
+				<p class="arial black-text text-lighten-4">Av. Brasil Norte, 364, Sala 7<br>
+					Ilha Solteira, SP 15385-000<br>
+				contato.biomas@gmail.com</p>
+			</div>
+			<div class="col l4 offset-l2 s12">
+				<h5 id="redessociais" class="black-text arial">BIOMAS NAS REDES SOCIAIS</h5>
+				<ul id="redessociais">
+					<a href="#"> <li class="social"><img src="https://image.flaticon.com/icons/svg/124/124010.svg" class="social-icon facebook" alt=""></li> </a>
+					<a href="#"> <li class="social"><img src="https://image.flaticon.com/icons/svg/174/174855.svg" class="social-icon" alt=""></li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<a class="container center black-text arial" href="https://ejcomp.com.br" target="_blank">
+		© Desenvolvido por EJComp - Empresa Júnior da Computação</a>
+	</div>
+</div>
+</footer>
+<!-- /footer-->
 </body>
 </html>
