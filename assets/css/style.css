@@ -305,6 +305,27 @@
     margin-top: 30px;
     margin-bottom: 25px;
   }
+  
+  .div-slider{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.legenda{
+  color: #30a323 !important;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.slider .slides li .caption {
+    color: #4caf50;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    width: 70%;
+    text-shadow: 2px 2px 4px black !important;
+}
 
   .efeitoZoomDiv{
     -webkit-transition: all 0.5s ease;
@@ -481,6 +502,7 @@
   margin-bottom: 0px;
   margin-top: 0px;
   background-position-x: -400px; 
+  background-repeat: no-repeat;
 }
 
 
