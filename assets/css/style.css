@@ -467,11 +467,35 @@
   }
 
   .bigleaf{
-    filter: brightness(50%);
-  }
+      filter: blur(0.8px) brightness(50%);
+    }
 
-  
-  
+    .funcionarios{
+      border-radius: 100%;
+      width: 200px;
+      object-fit: cover;
+      height: 200px;
+    }
+
+    .trocaimg{
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0;
+      transition: .3s ease;
+    }
+
+    .trocaimg:hover .overlay {
+      opacity: 1;
+    }
+
+
 
 
 /*---------------Header---------------*/
